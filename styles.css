@@ -1,0 +1,172 @@
+#video1{
+    width:auto;
+    height: 850px;
+    position: relative;
+    right: 0;
+    bottom:0;
+    min-height:100%;
+    min-width: 100%;
+    z-index:-1;
+}
+.heading{
+    background-image: linear-gradient(to right,red,yellow);
+    width:600px;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    margin-top: 200px ;
+    margin-left: 28px;
+    padding-left:30px;
+    font-size: 4rem;
+    box-shadow: 2px 2px 20px;
+}
+.logo1{
+    width: 155px;
+    height:163px;
+    margin-left: 25px;
+    position: absolute;
+    box-shadow: 2px 2px 10px black;
+}
+.navbar{
+    font-size:1.3rem;
+}
+.navbar1{
+    position: absolute;
+    padding:relative;
+    bottom: 640px;
+    left:750px;
+}
+.navbar-brand{
+    color:black;
+    font-size: 1.5rem;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+h3{
+    text-align: center;
+}
+.col{
+    border: 1px solid black;
+    margin: 2px;
+}
+.blur-image{
+    background-image: url("");
+}
+.navbar2{
+    position: absolute;
+    top: 780px;
+    margin-left:750px;
+    box-shadow: 4px 3px 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.nav-link{
+    color:black;
+}
+/* guildlines */
+.guildlines{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    position: absolute;
+    bottom:20px; 
+    left: 28px;
+    background-color: #DFF6FF;
+    padding:20px;
+    box-shadow: 1px 1px 10px black;
+}
+.top-guild{
+    position: relative;
+    top:10px;
+    text-align: center;
+    padding:100px;
+    background-image: url("covid.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    color: white;
+}
+.img-covid{
+    width:30%;
+    height:30%;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.bullets{
+    position: relative;
+    left:700px;
+    bottom:200px;
+}
+.logo-guild{
+    width: 155px;
+    height:163px;
+    margin-left: 25px;
+    position: absolute;
+    left: 0px;
+    bottom:102px;
+    box-shadow: 2px 2px 10px black;   
+}
+
+/* places */
+.places{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    left: 500px;
+    bottom: 450px;
+    font-family: 'Caveat', cursive;
+}
+.tiger{
+    width: 1550px;
+    height: 900px;
+}
+#video{
+    float: left;
+    padding: auto;
+    border-radius: 10px;
+}
+.para-tiger{
+    margin-bottom: 10px; 
+}
+.places-u{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    position: relative;
+    right: 550px;
+    bottom: 550px;
+    font-family: 'Caveat', cursive;
+}
+
+/* forms */
+.forms{
+    text-align: center;
+    margin-left: 530px;
+    background: rgba(239, 255, 253,.8);
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 500px;
+    box-shadow: 2px 2px 20px;
+}
+.block{
+    padding: 10px;
+}
+.button{
+    padding:16px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    color:black;
+    border: none;
+    background-color: rgb(59, 241, 254);
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #01a9fd;
+    color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,85 @@
+#video1{
+    width:auto;
+    height: 850px;
+    position: relative;
+    right: 0;
+    bottom:0;
+    min-height:100%;
+    min-width: 100%;
+    z-index:-1;
+}
+.heading{
+    background-image: linear-gradient(to right,red,yellow);
+    width:300px;
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    margin-top: 100px ;
+    margin-left: 300px;
+    padding-left:30px;
+}
+.logo1{
+    width: 155px;
+    height:163px;
+    padding-left: 25px;
+    position: absolute;
+    
+}
+.navbar{
+    font-size:1.3rem;
+}
+.navbar1{
+    position: absolute;
+    padding:relative;
+    bottom: 600px;
+    left:800px;
+}
+.nav-brand{
+    color:black;
+    font-size: 7rem;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+h3{
+    text-align: center;
+}
+.col{
+    border: 1px solid black;
+    margin: 2px;
+}
+#video{
+    padding: auto;
+    border-radius: 10px;
+}
+.blur-image{
+    background-image: url("");
+
+}
+.navbar2{
+    position: absolute;
+    top: 790px;
+    padding-left:50px;
+}
+.nav-color-k:hover{
+    padding: 6px 0px;
+    background: #B6FFCE; 
+    margin: 5px;
+}
+.nav-color-u:hover{
+    padding: 6px 0px;
+    background: #34B3F1; 
+    margin:5px;
+}
+.nav-color-p:hover{
+    padding: 6px 0px;
+    background: #36c466; 
+    margin: 5px;
+}
+.nav-color-i:hover{
+    padding: 6px 0px;
+    background: hsl(185, 76%, 77%); 
+    margin: 5px;
+}
+.nav-link{
+    color:black;
+}
